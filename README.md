@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import mskbinary3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskbinary3d@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-mskbinary3d/tags). For example,
+
+```javascript
 import mskbinary3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskbinary3d@v0.1.0-esm/index.mjs';
 ```
 
@@ -114,7 +119,7 @@ var bernoulli = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bern
 import filled3dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled3d-by@esm/index.mjs';
 import zeros3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros3d@esm/index.mjs';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add@esm/index.mjs';
-import mskbinary3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskbinary3d@v0.1.0-esm/index.mjs';
+import mskbinary3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskbinary3d@esm/index.mjs';
 
 var shape = [ 3, 3, 3 ];
 
